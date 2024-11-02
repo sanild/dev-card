@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.devimage{
+    height:200px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    width: min-content;
+    height: fit-content;
+    display: grid;
+    align-items: center;
+}
+
+.descContainer{
+    display: grid;
+    padding: 20px;
+    place-items: baseline;
+}
+
+.name{
+    height: min-content;
+    margin-bottom: 0px;
+}
+
+.skillContainer{
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: 0px 0px;
+}
+
+.skillBox{
+    display: flex;
+    font-size: 12px;
+    border-radius: 5px;
+    width: fit-content;
+    height: 24px;
+    background-color: green;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    
+
+}
+
+.emoji{
+    font-size: 20px;
 }
